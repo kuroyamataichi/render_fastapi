@@ -25,10 +25,11 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Some HTML in here</title>
+            <title>Kadai HTML</title>
         </head>
         <body>
-            <h1>Look ma! HTML!</h1>
+            <h1>touch</h1>
+            <h1>タッチ</h1>
         </body>
     </html>
     """
