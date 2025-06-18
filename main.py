@@ -30,6 +30,7 @@ def index():
         <body>
             <h1>touch</h1>
             <h1>タッチ</h1>
+            <img src="https://i.daily.jp/gossip/2017/06/30/Images/f_10327652.jpg" width="400">
         </body>
     </html>
     """
