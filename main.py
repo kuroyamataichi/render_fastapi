@@ -25,12 +25,12 @@ def index():
     html_content = """
     <html>
         <head>
-            <title>Kadai HTML</title>
+            <title>Like HTML</title>
         </head>
         <body>
-            <h1>touch</h1>
+            <h1>好きな漫画を紹介</h1>
             <h1>タッチ</h1>
-            <img src="https://i.daily.jp/gossip/2017/06/30/Images/f_10327652.jpg" width="400">
+            <img src="https://i.daily.jp/gossip/2017/06/30/Images/f_10327652.jpg" alt="タッチの画像" width="400">
         </body>
     </html>
     """
