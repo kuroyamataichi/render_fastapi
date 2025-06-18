@@ -38,7 +38,7 @@ def index():
             <h1>H2</h1>
             <img src="https://ogre.natalie.mu/media/news/comic/2018/0805/H2_illust.jpg?imwidth=750&imdensity=1" alt="H2の画像" width="400">
 
-            <h1>タッチ</h1>
+            <h1>mix</h1>
             <img src="https://ogre.natalie.mu/media/news/comic/2016/0504/MIX.jpg?imwidth=750&imdensity=1" alt="mixの画像" width="400">
 
             <h1>刃牙</h1>
