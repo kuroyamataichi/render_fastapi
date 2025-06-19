@@ -18,11 +18,11 @@ from fastapi.responses import HTMLResponse #インポート
 from fastapi import FastAPI
 
 ### コードいろいろ... ###
-class weather(BaseModel):
+class weatherrequest(BaseModel):
     city:str
 weather=["晴れ","曇り","雨","雪","雷","強風"]
 @app.post("/weather")
-async def give_weather(request:weather):
+async def give_weather(request:weatherrequest):
     return {"response": f"サーバです。 {request.city}の天気は{random.choice(weather)}です"}  
 
 @app.get("/index")
