@@ -1,7 +1,6 @@
 from typing import Optional
-
 from fastapi import FastAPI
-
+from pydantic import BaseModel
 import random
 
 app = FastAPI()
@@ -19,6 +18,12 @@ from fastapi.responses import HTMLResponse #インポート
 from fastapi import FastAPI
 
 ### コードいろいろ... ###
+class weather(BaseModel):
+    city:str
+weather=["晴れ","曇り","雨","雪","雷","強風"]
+@app.post("/weather")
+async def give_weather(request:weather):
+    return {"response": f"サーバです。 {request.city}の天気は{random.choice(weather)}です"}  
 
 @app.get("/index")
 def index():
